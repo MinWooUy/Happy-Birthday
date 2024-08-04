@@ -167,17 +167,17 @@ button:hover {
   }
   
   .modal {
-    position: absolute;
-    top: 50%;
+    position:relative;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 70%;
   
     background-color: white;
-    padding: 6rem;
+    padding: 4rem;
     border-radius: 5px;
-    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
-    z-index: 10;
+    box-shadow: 0 3rem 2rem rgba(0, 0, 0, 0.3);
+    z-index: 20;
   }
   
   .overlay {
@@ -190,7 +190,8 @@ button:hover {
     backdrop-filter: blur(3px);
     z-index: 5;
   }
-/* style.css hoặc main.css */
+  
+  /* style.css hoặc main.css */
 .cake {
   text-align: center; /* Căn giữa hình ảnh */
   margin-top: 20px; /* Khoảng cách từ trên xuống */
@@ -207,5 +208,3 @@ button:hover {
 .cake img:hover {
   transform: scale(1.1); /* Phóng to hình ảnh khi hover */
 }
-
-  
